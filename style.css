@@ -8,6 +8,11 @@ body{
 header{
 	display: flex;
 	justify-content: space-between;
+	margin-right: 5%;
+}
+.test {
+	height: 70%;
+	overflow-y:scroll;
 }
 
 .information{
@@ -29,7 +34,7 @@ header{
 	/*border-style: solid;	*/
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+
 }
 .titrecv {
 	text-align: center;
@@ -76,7 +81,7 @@ header{
 	/*border-style: solid;*/
 	background-color: rgba(232,233,233, 0.5);
     height: 100px;
-    width: 65%;
+    width: 75%;
     border-left-style: solid;
     border-left-color: #01FEDC;
     padding-left: 5%;
